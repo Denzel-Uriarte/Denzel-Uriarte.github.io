@@ -1,1 +1,1 @@
-Mi sitio web de projectos personales o escolares
+Websites for academic or personal purposes
