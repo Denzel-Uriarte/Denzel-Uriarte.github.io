@@ -1,0 +1,1 @@
+Baww Shop is located in 5y10 Swap Meet Tijuana, open from friday to monday.
