@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background: url(./resources/minecraft-banner.jpeg);
+    text-align:center;
+    height:auto;
+    width:100%;
+}
+header img {
+    margin:0;
+}
+
+h3 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.image-container {
+    width:100%;
+    overflow:hidden;
+    display:flex;
+    justify-content:center;
+    height:200px;
+    margin: 0 auto;
+}
+
+.small.image-container {
+    height:100px;
+}
+
+.fluid{
+    width:100%
+}
+.item {
+    display: flex;
+    padding:10px;
+    text-align: center;
+    align-items: center;
+    flex-direction:column;
+}
+
+.third-width {
+    width: 20em;
+    margin-left: 0.25em;
+    margin-right: 0.25em;       
+}
+
+.half-width {
+    width: 30em;
+    justify-content:center;
+}
+
+.full-width {
+    width: 70em;
+    justify-content:center;
+}
+
+.container {
+    display:flex; 
+    flex-wrap:wrap; 
+    justify-content:center;
+    padding-top:1.5em;
+    padding-bottom:1.5em;
+    width:100%;
+    margin:auto;
+}
+
+
+#small-header {
+    width:100%;
+    text-align:center;
+}
+
+.teagreen {
+    background-color:#CAE2BE;
+}
+
+.darkteagreen {
+    background-color: #537942;
+}
+
+.light {
+    background-color: #F8F3D3;
+}
+
+.darklight {
+    background-color: #878151;
+}
+
+.lightred {
+    background-color: #FEC6C2;
+}
+
+.darklightred {
+    background-color: #745c5a;
+}
+
+footer {
+    font-size:1.5em;
+}
+
+footer.container {
+    justify-content:space-evenly;
+}
+
+footer p {
+    margin: 0.1em
+}
+
+footer h4 {
+    margin: 0.1em
+}
