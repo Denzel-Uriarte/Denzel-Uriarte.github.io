@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mi segunda pagina web</title>
+  <link rel="stylesheet" type="text/css" href="styles/reset.css">
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <style>
+  .header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4.44rem;
+    padding: 0 12%;
+    background-color: white;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.05);
+    font-family: Verdana, sans-serif;
+    font-size: .77rem;
+    font-weight: bold;
+  }
+  
+  .header .logo {
+    flex-grow: 1;
+    color: #ffb78c;
+  }
+  
+  .header li {
+    display: inline;
+    padding-right: 2.22rem;
+    text-align:center;
+  }
+  
+  .header li a {
+    text-decoration: none;
+    color: #4a4a4a;
+  }
+  
+  @media only screen and (max-width: 550px) {
+    .header {
+      flex-direction: column;
+    }
+  
+    .header .logo {
+      flex-grow: 0;
+    }
+  }
+
+  .banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50rem;
+    background: url("resources/puesto2.jpeg") center center no-repeat;
+    background-size: cover;
+    color: #ffffff;
+  }
+  
+  .banner h2 {
+    padding: .55rem 0;
+    border-top: 4px solid #ffb78c;
+    border-bottom: 4px solid #ffb78c;
+    font-size: 1.44rem;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-family: 'Work Sans', 'Arial', sans-serif;
+  }
+  
+  .banner h1 {
+    padding-top: 1.11rem;
+    font-size: 11rem;
+    font-weight: 900;
+    font-family: 'Abril Fatface', sans-serif;
+  }
+  
+  @media only screen and (max-width: 750px) {
+    .banner {
+      height: 40rem;
+    }
+  
+    .banner h1 {
+      font-size: 8rem;
+    }
+  }
+  
+  @media only screen and (max-width: 530px) {
+    .banner {
+      height: 30rem;
+    }
+  
+    .banner h1 {
+      font-size: 6rem;
+    }
+  }
+
+  .journal {
+    padding: 0 10% 4rem 10%;
+    background-color: rgb(254, 231, 218);
+    color: #4a4a4a;
+    font-family: 'Work Sans', serif;
+  }
+  
+  .photo {
+    width: 75%;
+    padding: 1.11rem;
+    border-radius: 5px;
+    margin: 0 auto 4.44rem auto;
+    background-color: white;
+  }
+  
+  .photo .image-container {
+    overflow: hidden;
+    margin-bottom: 1.11rem;
+  }
+  
+  .photo .image-container img {
+    width: 100%;
+  }
+  
+  .photo .caption {
+    font-style: italic;
+    font-family: 'Merriweather', serif;
+  }
+  
+  .photo .first {
+    position: relative;
+    top: -2.77rem;
+    margin-bottom: 1.67rem;
+  }
+  
+  .journal p {
+    padding-bottom: 2.77rem;
+    font-size: 1.5rem;
+    line-height: 1.4;
+  }
+  
+  .journal .first-letter {
+    float: left;
+    padding-right: 1.4rem;
+    font-family: "Abril Fatface", serif;
+    font-size: 7.44rem;
+    color: #10b0d8;
+    line-height: 0.87;
+  }
+  
+  .quote {
+    display: block;
+    padding: 4.44rem 0;
+    margin-bottom: 3.33rem;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    text-align: center;
+    font-size: 3.55rem;
+    font-weight: 800;
+    line-height: 1.2;
+  }
+  
+  .elementos-lista {
+    display:inline-block;
+    font-size:1.5rem;
+    max-width:49%;
+  }
+  </style>
+</head>
+<body>
+  <nav class="header">
+    <span class="logo">Denzel Uriarte</span>
+    <ul>
+      <li><a href="https://denzel-uriarte.github.io/school_websites/bawwshop_segunda_entrega">BAWW SHOP</a></li>
+      <li><a href="https://denzel-uriarte.github.io/school_websites/bloons_primera_entrega">BTD6</a></li>
+      <li><a href="#">MINECRAFT</a></li>
+    </ul>
+  </nav>
+
+  <div class="banner">
+    <h2>En el pasillo 6 de la 5y10</h2>
+    <h1>BAWW</h1>
+  </div>
+
+  <div class="journal">
+    <div class="first photo">
+      <div class="image-container">
+        <img src="resources/5y10.jpg" alt="puesto">
+      </div>
+      <span class="caption">Swap Meet 5y10 </span>
+    </div>
+    <p>
+      <span class="first-letter">E</span>l puesto de BAWW Shop es uno el cual se dedica a vender distintos estilos de ropa "juvenil", incluyendo sudaderas y blusas de anime, gorros de pijama, collares, medias, faldas, pantalones y otros accesorios.
+    </p>
+    <p>
+      Es un puesto en el cual yo he trabajado desde el anio pasado y creo en que venden ropa de calidad.
+    </p>
+    <div class="photo">
+      <div class="image-container">
+        <img src="resources/puesto1.jpeg" alt="puesto">
+      </div>
+      <span class="caption">Trabajando en el puesto</span>
+    </div>
+    <p>
+      Pueden venir a visitarme todos los domingos, aunque el puesto abre de viernes a lunes todas las semanas.
+    </p>
+    <span class="quote">Precios</span>
+    <div >
+      <div class="elementos-lista">
+        <ul>
+          <li>Sudadera con disenio - $280mx</li>
+          <li>Lllaveros -  $150mx</li>
+          <li>Medias - $100mx</li>
+          <li>Pierneras - $150mx</li>
+          <li>Blusa de mangas cortas - $200mx</li>
+          <li>Blusa con cadenas o manga larga - $220mx</li>
+        </ul>
+      </div>
+      <div class="elementos-lista ">
+        <ul>
+          <li>Faldas y pantalones - $280mx</li>
+          <li>Gorros fluffy - $180mx</li>
+          <li>Corset - $250mx</li>
+          <li>Pijama (shorts + top) - $280mx</li>
+          <li>Bukets, gorras y gorros - $100mx</li>
+          <li>Collares - $150mx</li>
+        </ul>
+      </div>
+    </div>
+    <p>
+      *Precios pueden variar
+    </p>
+    <div class="photo">
+      <div class="image-container">
+        <img src="resources/hoodie3.webp" alt="disenio">
+      </div>
+      <span class="caption">Ejemplo de modelo de sudadera</span>
+    </div>
+  <p>Denzel Isaac Uriarte Munoz - 34684 - Grupo 4E</p>
+  </div>
+</body>
+</html>
