@@ -98,6 +98,18 @@ h3 {
     background-color: #745c5a;
 }
 
+.crimson {
+    color:crimson;
+}
+
+.cadetblue {
+    color:cadetblue;
+}
+
+.darkgreen {
+    color:darkgreen;
+}
+
 footer {
     font-size:1.5em;
 }
