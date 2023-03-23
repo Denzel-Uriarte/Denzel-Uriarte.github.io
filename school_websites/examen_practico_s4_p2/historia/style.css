@@ -1,23 +1,26 @@
 body {
     padding: 0;
     margin:0;
-    background: #F7F7F7;
-    background: -moz-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
+    background: #dadada;
+    /* background: -moz-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
     background: -webkit-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
-    background: linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
+    background: linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%); */
   }
   
   .header {
-    background-image: url(resources/header-background.jpg);
+    background-image: url(resources/porfiriodiaz.jpg);
     height: 400px;
     background-position: center center;
     padding-top: 70px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
   }
   
   .resumen {
     margin: 40px auto;
     padding: 20px 30px 40px 30px;
-    background-color: #FFFFFF;
+    background-color: #ffffffe2;
     overflow: auto;
     width: 75%;
     border-radius: 4px;
@@ -46,24 +49,12 @@ body {
     text-align: left;
   }
   
-  .darkblue {
-    background-color: #442288;
+  .claro {
+    background-color: #979797;
   }
   
-  .lightblue {
-    background-color: #6CA2EA;
-  }
-  
-  .green {
-    background-color: #B5D33D;
-  }
-  
-  .yellow {
-    background-color: #FED23F;
-  }
-  
-  .burntorange {
-    background-color: #EB7D5B;
+  .oscuro {
+    background-color: #4f4f4f;
   }
   
   h1 {
