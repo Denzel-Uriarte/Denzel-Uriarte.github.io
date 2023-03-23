@@ -1,0 +1,35 @@
+body {
+    margin:0;
+    padding:0;
+    background: url(./resources/imagen_fondo.jpg);
+    background-repeat: no-repeat;
+    text-align:center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+header {
+    font-weight: bold;
+}
+
+section {
+    display:flex; 
+    flex-wrap:wrap; 
+    justify-content:center;
+    padding-top:1.5em;
+    padding-bottom:1.5em;
+    width:100%;
+    margin:auto;
+}
+
+.elemento {
+    display:flex;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #eaeaea;
+    border-radius:10px;
+    width: 20em;
+    margin: 0.25em;
+}
