@@ -10,10 +10,9 @@ body {
   .header {
     background-image: url(resources/porfiriodiaz.jpg);
     height: 400px;
-    background-position: center center;
-    padding-top: 70px;
+    background-position: center top;
+    padding-top: 100px;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: 100% auto;
   }
   
@@ -31,8 +30,8 @@ body {
     color: #938E89;
     text-align: center;
     line-height: 24px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 20px;
     font-weight: 400;
   }
   
@@ -73,7 +72,7 @@ body {
   
   h2 {
     color: rgb(0,0,0);
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Times New Roman', sans-serif;
     font-size: 28px;
     font-weight: 500;
     text-align: left;
@@ -82,21 +81,21 @@ body {
   
   h3 {
     color: #41292C;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Times New Roman', sans-serif;
     font-size: 22px;
     font-weight: 500;
     text-align: center;
   }
   
   h4 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Times New Roman', sans-serif;
     font-size: 28px;
     font-weight: 700;
     line-height: .2em;
   }
   
   h5 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Times New Roman', sans-serif;
     font-size: 20px;
     line-height: .2em;
     font-weight: 300;
@@ -112,6 +111,7 @@ body {
     border-bottom: 1px solid #E4BB97;
     list-style: none;
     padding-bottom: 60px;
+    font-size: 20px;
   }
 
   .informacion ul {
@@ -127,20 +127,20 @@ body {
     line-height: 24px;
     text-align:left;
     margin: 8px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Times New Roman', sans-serif;
   }
   
   p {
     color: #343434;
     line-height: 32px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Times New Roman', sans-serif;
     font-size: 20px;
     font-weight: 200;
   }
   
   a {
     color: #214E34;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Times New Roman', sans-serif;
     font-size: 13px;
     font-weight: 900;
     text-align: left;
@@ -150,7 +150,8 @@ body {
   }
   
   img {
-    width: 25%;
+    width: 100%;
+    height: 100%
   }
 
   #hero-section {
@@ -177,3 +178,14 @@ body {
   align-items: center;
   border-bottom: 3px solid black ;
 }
+
+  .contenedor-imagen {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+  }
+
+  .imagen {
+    height: 200px;
+    margin-bottom: 20px
+  }
