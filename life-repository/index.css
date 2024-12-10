@@ -1,0 +1,30 @@
+p {
+    font-size: 21px;
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+    color: black;
+}
+
+.story-block {
+    justify-content: center;
+    text-align: center;
+    padding-right: 280px;
+    padding-left: 280px
+}
+
+.horizontal-photos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    height: 200px;
+    gap: 32px;
+}
+
+.highlights {
+    font-style: italic;
+}
