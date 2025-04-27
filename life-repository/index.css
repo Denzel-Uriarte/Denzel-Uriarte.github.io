@@ -13,8 +13,6 @@ h2 {
 .story-block {
     justify-content: center;
     text-align: center;
-    padding-right: 280px;
-    padding-left: 280px;
 }
 
 @media (max-width: 768px) {
@@ -34,4 +32,23 @@ h2 {
 
 .highlights {
     font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.kate-background {
+    background-image: url('./people/Kate/kate-background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.background-cover {
+    margin-right: 248px;
+    margin-left: 248px;
+    padding: 80px;
+    background-color: white;
+    opacity: 0.97;
+    
 }
