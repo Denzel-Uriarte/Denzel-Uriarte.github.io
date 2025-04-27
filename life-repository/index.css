@@ -14,7 +14,14 @@ h2 {
     justify-content: center;
     text-align: center;
     padding-right: 280px;
-    padding-left: 280px
+    padding-left: 280px;
+}
+
+@media (max-width: 768px) {
+    .story-block {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
 }
 
 .horizontal-photos {
