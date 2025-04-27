@@ -15,18 +15,11 @@ h2 {
     text-align: center;
 }
 
-@media (max-width: 768px) {
-    .story-block {
-        padding-right: 20px;
-        padding-left: 20px;
-    }
-}
 
 .horizontal-photos {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    height: 200px;
     gap: 32px;
 }
 
@@ -44,11 +37,18 @@ h2 {
     background-position: center;
 }
 
-.background-cover {
+.background-readable-cover {
     margin-right: 248px;
     margin-left: 248px;
     padding: 80px;
     background-color: white;
     opacity: 0.97;
-    
+}
+
+@media (max-width: 768px) {
+    .background-readable-cover {
+        margin-right: 16px;
+        margin-left: 16px;
+        padding: 18px;
+    }
 }
